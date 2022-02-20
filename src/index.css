@@ -17,6 +17,9 @@ code {
 /* nhóm class css của tailwind lại thành 1 class dùng trong trường hợp dùng chung css hoặc là viết class name nó dài*/
 @layer components {
   .check-content {
-    @apply mb-[51px] flex gap-8 ml-[70px] mr-[29px] items-center;
+    @apply mb-[51px] flex gap-8 ml-[70px] mr-[29px] items-center md:mx-0;
+  }
+  .btn-hover{
+    @apply cursor-pointer hover:text-purple-500 transition-all duration-500
   }
 }
